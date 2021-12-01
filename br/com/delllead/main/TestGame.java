@@ -14,6 +14,7 @@ public class TestGame {
         Scanner sc = new Scanner(System.in);
 
         System.out.printf("1 - Bárbaro\n2 - Feiticeiro\n3 - Guerreiro\n4 - Mago\nEscolha seu personagem: ");
+
         int escolhaPersonagem = sc.nextInt();
         Personagem personagemEscolhido = escolherPersonagem(escolhaPersonagem);
         System.out.println("Personagem escolhido: " + personagemEscolhido.getClass().getSimpleName());
